@@ -1,0 +1,29 @@
+main{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 3vw 35vw;
+    background-color: var(--color);
+}
+
+h1 > span{
+    color: var(--color);
+}
+
+.filas{
+    display: flex;
+    justify-content: center;
+}
+
+.columnas{
+    overflow:hidden;
+    background-color: var(--color);
+    width: 5vw;
+    height: 5vw;
+    font-size: 2vw;
+    line-height: 5vw;
+    text-align: center;
+}
